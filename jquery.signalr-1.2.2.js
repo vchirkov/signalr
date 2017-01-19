@@ -2711,4 +2711,4 @@
     signalR.hub = $.hubConnection("/signalr", { useDefaultPath: false });
     $.extend(signalR, signalR.hub.createHubProxies());
 
-}(window.jQuery, window));
+}(window.jQuery || window.$, window));
